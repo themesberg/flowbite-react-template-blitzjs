@@ -1,5 +1,5 @@
-const {withBlitz} = require("@blitzjs/next")
-const withFlowbiteReact = require("flowbite-react/plugin/nextjs");
+const { withBlitz } = require("@blitzjs/next")
+const withFlowbiteReact = require("flowbite-react/plugin/nextjs")
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

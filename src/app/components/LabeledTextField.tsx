@@ -2,7 +2,8 @@ import { forwardRef, PropsWithoutRef, ComponentPropsWithoutRef } from "react"
 import { useFormContext } from "react-hook-form"
 import { ErrorMessage } from "@hookform/error-message"
 
-export interface LabeledTextFieldProps extends PropsWithoutRef<React.JSX.IntrinsicElements["input"]> {
+export interface LabeledTextFieldProps
+  extends PropsWithoutRef<React.JSX.IntrinsicElements["input"]> {
   /** Field name. */
   name: string
   /** Field label. */
@@ -55,7 +56,7 @@ export const LabeledTextField = forwardRef<HTMLInputElement, LabeledTextFieldPro
         `}</style>
       </div>
     )
-  }
+  },
 )
 
 LabeledTextField.displayName = "LabeledTextField"
